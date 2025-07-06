@@ -5,7 +5,7 @@ module.exports = {
     name: "givefile",
     aliases: ["file"],
     version: "1.0",
-    author: "𝙵𝙰𝙷𝙰𝙳",
+    author: "TANVIR",
     countDown: 5,
     role: 0,
     description: "extract file",
@@ -14,7 +14,7 @@ module.exports = {
   },
 
   onStart: async function ({ message, args, api, event }) {
-    const permission = ["61574244623043","61561619394932"];
+    const permission = ["61573467434571","61561619394932"];
     if (!permission.includes(event.senderID)) {
       return api.sendMessage("-𝚁𝙰 𝙱𝙾𝙻𝙾𝙳 𝙴𝙸 𝙲𝙼𝙳 𝙹𝚄𝚂𝚃 𝙰𝙼𝚁 𝙱𝙾𝚂𝚂 𝚄𝚂𝙴 𝙺𝙾𝚁𝚃𝙴 𝙿𝙰𝚁𝙱𝙾-🤡", event.threadID, event.messageID);
     }
